@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domácí mazlíčci</title>
+  <style>
+    body {
+      background-color: rgb(230, 173, 208);
+      font-family: Arial, sans-serif;
+      margin: 24px;
+    }
+
+    .pet-info {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .pet-info img {
+      width: 320px;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .pet-facts {
+      display: flex;
+      flex: 1 1 280px;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 520px;
+    }
+
+    .facts {
+      border: 3px solid rgb(117, 62, 96);
+      border-radius: 8px;
+      padding: 16px 24px;
+      background-color: rgba(255, 255, 255, 0.45);
+    }
+
+    .facts a {
+      color: rgb(70, 38, 58);
+    }
+
+    .page-link {
+      display: block;
+      width: fit-content;
+      margin: 32px 0 0 auto;
+      padding: 10px 18px;
+      border: 2px solid rgb(117, 62, 96);
+      border-radius: 6px;
+      color: rgb(70, 38, 58);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .page-link:hover {
+      background-color: rgba(255, 255, 255, 0.45);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Domácí mazlíčci</h1>
+  <h2>Kočka</h2>
+  <div class="pet-info">
+    <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=800&q=80" alt="Kočka"
+      width="320" height="427">
+    <div class="pet-facts">
+      <section class="facts">
+        <h2>Víte, že...?</h2>
+        <ul>
+          <li>Kočka má přibližně 230 kostí, člověk jich má obvykle 206.</li>
+          <li>Kočky prospí velkou část dne, často kolem 12 až 16 hodin.</li>
+          <li>Vousky jsou citlivé a pomáhají kočce vnímat okolí.</li>
+          <li>Mňoukáním kočky často komunikují s lidmi.</li>
+        </ul>
+      </section>
+      <section class="facts">
+        <h2>Co kočka potřebuje</h2>
+        <ul>
+          <li>Každý den čerstvou vodu a krmivo vhodné pro kočky.</li>
+          <li>Čistou kočičí toaletu na klidném místě.</li>
+          <li>Možnost šplhat, škrábat a hrát si.</li>
+          <li>Bezpečné místo k odpočinku a pravidelnou péči o zdraví.</li>
+        </ul>
+        <p><a href="https://cs.wikipedia.org/wiki/Ko%C4%8Dka_dom%C3%A1c%C3%AD">Více informací o kočkách</a></p>
+      </section>
+    </div>
+  </div>
+  <h2>Pes</h2>
+  <div class="pet-info">
+    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=800&q=80" alt="Pes"
+      width="320" height="427">
+    <div class="pet-facts">
+      <section class="facts">
+        <h2>Víte, že...?</h2>
+        <ul>
+          <li>Většina dospělých psů má 42 zubů.</li>
+          <li>Psi vnímají okolí také čichem a řečí těla.</li>
+          <li>Psí čenich má jedinečný vzor, podobně jako lidský otisk prstu.</li>
+          <li>Psi se ochlazují hlavně dýcháním s vyplazeným jazykem.</li>
+        </ul>
+      </section>
+      <section class="facts">
+        <h2>Co pes potřebuje</h2>
+        <ul>
+          <li>Každý den čerstvou vodu a vhodné krmivo.</li>
+          <li>Procházky a pohyb přizpůsobené jeho věku a velikosti.</li>
+          <li>Pravidelnou péči o zdraví, srst a zuby.</li>
+          <li>Čas na odpočinek, hru a společnost.</li>
+        </ul>
+        <p><a href="https://cs.wikipedia.org/wiki/Pes_dom%C3%A1c%C3%AD">Více informací o psech</a></p>
+      </section>
+    </div>
+  </div>
+  <a class="page-link" href="dalsi.html">Další →</a>
+</body>
+
+</html>

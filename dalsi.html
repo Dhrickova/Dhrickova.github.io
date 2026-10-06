@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Další domácí mazlíčci</title>
+    <style>
+        body {
+            background-color: rgb(230, 173, 208);
+            font-family: Arial, sans-serif;
+            margin: 24px;
+        }
+
+        .pet-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .pet-info img {
+            width: 300px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .facts {
+            border: 3px solid rgb(117, 62, 96);
+            border-radius: 8px;
+            padding: 16px 24px;
+            background-color: rgba(255, 255, 255, 0.45);
+        }
+
+        .facts a {
+            color: rgb(70, 38, 58);
+        }
+
+        .pet-facts {
+            display: flex;
+            flex: 1 1 280px;
+            flex-direction: column;
+            gap: 16px;
+            max-width: 520px;
+        }
+
+        .page-link {
+            display: block;
+            width: fit-content;
+            margin: 32px 0 0 auto;
+            padding: 10px 18px;
+            border: 2px solid rgb(117, 62, 96);
+            border-radius: 6px;
+            color: rgb(70, 38, 58);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .page-link:hover {
+            background-color: rgba(255, 255, 255, 0.45);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Další domácí mazlíčci</h1>
+    <h2>Králík domácí</h2>
+    <div class="pet-info">
+        <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=800&q=80"
+            alt="Králík domácí" width="300" height="200">
+        <div class="pet-facts">
+            <section class="facts">
+                <h2>Víte, že...?</h2>
+                <ul>
+                    <li>Králíkům zuby rostou po celý život.</li>
+                    <li>Seno je důležitou součástí jejich jídelníčku.</li>
+                    <li>Králíci mají velmi citlivý sluch.</li>
+                    <li>Potřebují bezpečný prostor k pohybu a odpočinku.</li>
+                </ul>
+            </section>
+            <section class="facts">
+                <h2>Co králík potřebuje</h2>
+                <ul>
+                    <li>Kvalitní seno a neustálý přístup k čerstvé vodě.</li>
+                    <li>Bezpečný prostor k pohybu a každodennímu prozkoumávání.</li>
+                    <li>Skrýš, kde může odpočívat a cítit se v bezpečí.</li>
+                    <li>Pravidelné kontroly u veterináře, který zná králíky.</li>
+                </ul>
+                <p><a href="https://cs.wikipedia.org/wiki/Kr%C3%A1l%C3%ADk_dom%C3%A1c%C3%AD">Více informací o
+                        králících</a></p>
+            </section>
+        </div>
+    </div>
+    <h2>Papoušek</h2>
+    <div class="pet-info">
+        <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=80"
+            alt="Papoušek" width="300" height="200">
+        <div class="pet-facts">
+            <section class="facts">
+                <h2>Víte, že...?</h2>
+                <ul>
+                    <li>Papoušci mají dva prsty směřující dopředu a dva dozadu.</li>
+                    <li>Některé druhy dokážou napodobovat lidskou řeč a jiné zvuky.</li>
+                    <li>Jsou zvídaví a potřebují podněty, hračky a pozornost.</li>
+                    <li>Jejich délka života se výrazně liší podle druhu.</li>
+                </ul>
+            </section>
+            <section class="facts">
+                <h2>Co papoušek potřebuje</h2>
+                <ul>
+                    <li>Bezpečné a dostatečně prostorné místo k životu.</li>
+                    <li>Každý den čerstvou vodu a krmivo vhodné pro jeho druh.</li>
+                    <li>Hračky, podněty a pravidelný kontakt s lidmi.</li>
+                    <li>Péči veterináře, který se specializuje na ptáky.</li>
+                </ul>
+                <p><a href="https://cs.wikipedia.org/wiki/Papou%C5%A1ci">Více informací o papoušcích</a></p>
+            </section>
+        </div>
+    </div>
+    <a class="page-link" href="zvirata.html">← Zpět</a>
+    <a class="page-link" href="o-mne.html">Další →</a>
+</body>
+
+</html>

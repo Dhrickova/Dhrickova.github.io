@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mně</title>
+    <style>
+        body {
+            background-color: rgb(230, 173, 208);
+            font-family: Arial, sans-serif;
+            margin: 24px;
+        }
+
+        .about-layout {
+            display: flex;
+            align-items: stretch;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .panel {
+            flex: 1 1 320px;
+            border: 3px solid rgb(117, 62, 96);
+            border-radius: 8px;
+            padding: 16px 24px;
+            background-color: rgba(255, 255, 255, 0.45);
+        }
+
+        .panel h2 {
+            margin-top: 0;
+        }
+
+        .about-image {
+            display: block;
+            width: min(100%, 400px);
+            height: auto;
+            margin: 20px auto 0;
+            border-radius: 8px;
+        }
+
+        .page-link {
+            display: block;
+            width: fit-content;
+            margin: 32px 0 0 auto;
+            padding: 10px 18px;
+            border: 2px solid rgb(117, 62, 96);
+            border-radius: 6px;
+            color: rgb(70, 38, 58);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .page-link:hover {
+            background-color: rgba(255, 255, 255, 0.45);
+        }
+
+        .ending {
+            margin-top: 28px;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .ending-image {
+            display: block;
+            width: min(100%, 320px);
+            height: auto;
+            margin: 32px auto 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Důležité informace</h1>
+    <main class="about-layout">
+        <section class="panel">
+            <h2>O mně</h2>
+            <ul>
+                <li>Mám ráda růžovou barvu.</li>
+                <li>Jsem zodpovědná, hodná, milá, přátelská a upřímná.</li>
+                <li>Mezi má nejoblíbenější zvířata patří panda a koala.</li>
+                <li>Ráda si vybarvuji a hraji hry na tabletu nebo telefonu.</li>
+            </ul>
+            <img class="about-image"
+                src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?auto=format&fit=crop&w=700&q=80"
+                alt="Panda, jedno z mých oblíbených zvířat" loading="lazy">
+        </section>
+        <section class="panel">
+            <h2>Jak jsem vytvořila tento web?</h2>
+            <p>Tento web jsem vytvořila s pomocí YouTube, AI a "HTML a CSS trikový list"</p>
+            <ul>
+                <li>Podle YouTubu jsem zjistila různé prvky, získala rady, ukázky a tutoriály na výrobu webu, protože u
+                    hodně věci jsem si nebyla jistá a nevěděla jsem jak se dělají, např. (nadpisy/podnadpisy, seznam
+                    položek, barva pozadí, velikosti a písmo) </li>
+                <li>Pomocí AI jsem hledala nápady, ukázky a rady na vytvoření svého webu a občas mi pomohl tento web
+                    doladit a taky jsem se tím inspirovala, taky mi občas pomohl něco vytvořit a upravit (obrázky,
+                    rámečky s fakty a co zvíře potřebuje, tlačítko další/zpět a odkazy) když jsem si nevěděla rady,
+                    nevěděla jak se to dělá, nikde jsem to nenašla a nebo že jsem to měla špatně.</li>
+                <li>Materiály „Základy HTML – PVA“ a „HTML a CSS trikový list“ (od pana učitele) mi pomáhaly s hledáním
+                    různých prvků, které jsem potřebovala na to, aby toto vzniklo a pomohly mi vytvořit tento web (prvky
+                    a šablona) Panu učitelovi děkuji za to, že to tam do svého webu dal, protože bez toho bych asi tento
+                    web neudělala :)</li>
+                <li>Taky jsem díky pomoci rodičů získala informace, odpovědi, rady a nápady jak to zpracovat, jak co
+                    udělat/upravit, co napsat a dát vše dohromady.</li>
+                <li>Ale taky jsem hodně věcí dělala a dokázala sama, hlavně ty, které jsme si ukazovali ve škole v
+                    úterý.</li>
+                <li> A ještě něco, ty obrázky jsou vygenerované podle AI a ty fakta o každém zvířeti a to, co potřebuje
+                    je z wikipedie.</li>
+            </ul>
+        </section>
+    </main>
+    <a class="page-link" href="dalsi.html">← Zpět</a>
+    <img class="ending-image"
+        src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+        alt="Barevné výtvarné potřeby na tvoření" loading="lazy">
+    <p class="ending">Konec :)</p>
+</body>
+
+</html>
