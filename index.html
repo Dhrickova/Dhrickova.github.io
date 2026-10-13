@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Studentské portfolio — představení, dovednosti a projekty.">
+    <title>Moje portfolio | Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navigation container" aria-label="Hlavní navigace">
+            <a class="brand" href="#uvod">Moje<span>portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#o-mne">O mně</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="uvod">
+            <div class="hero-copy">
+                <p class="eyebrow"><i class="fa-solid fa-sparkles" aria-hidden="true"></i> Studentské portfolio</p>
+                <h1>Ahoj, jsem <span>Student/ka.</span></h1>
+                <p class="hero-description">
+                    Studuji a objevuji svět webů, designu a technologií. Tohle je místo,
+                    kde představuji sebe a věci, na kterých pracuji.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projekty">Prohlédnout projekty <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+                    <a class="button button-secondary" href="#kontakt">Napište mi</a>
+                </div>
+                <p class="hero-note"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Student/ka z České republiky</p>
+            </div>
+            <div class="hero-card" aria-label="Krátké představení">
+                <div class="portrait-placeholder" aria-hidden="true">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+                <p class="card-label">Právě se učím</p>
+                <p class="card-title">HTML, CSS a nové nápady</p>
+                <div class="learning-tags">
+                    <span>tvoření</span>
+                    <span>zvědavost</span>
+                    <span>kreativita</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="o-mne">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Pár slov o mně</p>
+                    <h2>Rád/a se učím <span>a zkouším nové věci.</span></h2>
+                </div>
+                <div class="about-grid">
+                    <p class="about-copy">
+                        Jsem student/ka se zájmem o kreativní tvorbu a technologie.
+                        Ve volném čase rád/a pracuji na vlastních nápadech, učím se
+                        základy tvorby webů a postupně si zkouším, co všechno dokážu vytvořit.
+                    </p>
+                    <div class="interests">
+                        <h3>Co mě baví</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-code" aria-hidden="true"></i> Tvorba webových stránek</li>
+                            <li><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Vymýšlení nových nápadů</li>
+                            <li><i class="fa-solid fa-book-open" aria-hidden="true"></i> Učení a objevování</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills" aria-label="Dovednosti">
+                    <span><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</span>
+                    <span><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS</span>
+                    <span><i class="fa-solid fa-pen-nib" aria-hidden="true"></i> Kreativita</span>
+                    <span><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Chuť učit se</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="projekty">
+            <div class="section-heading">
+                <p class="eyebrow">Co jsem vytvořil/a</p>
+                <h2>Moje <span>projekty</span></h2>
+                <p class="section-description">Malé kroky, nové zkušenosti. Tady jsou ukázky mé práce.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-icon"><i class="fa-solid fa-paw" aria-hidden="true"></i></div>
+                    <p class="project-type">Školní projekt</p>
+                    <h3>Web o zvířatech</h3>
+                    <p>Vícestránkový web, na kterém jsem si vyzkoušel/a strukturu HTML a základy stylování v CSS.</p>
+                    <a href="zvirata.html">Prohlédnout projekt <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon project-icon-pink"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
+                    <p class="project-type">Osobní stránka</p>
+                    <h3>Něco o mně</h3>
+                    <p>Stránka o mně, mých zájmech a o tom, jak jsem se při tvorbě webu učil/a.</p>
+                    <a href="o-mne.html">Prohlédnout projekt <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+                <article class="project-card project-card-note">
+                    <div class="project-icon project-icon-yellow"><i class="fa-solid fa-plus" aria-hidden="true"></i></div>
+                    <p class="project-type">Další nápad</p>
+                    <h3>Další projekt přijde</h3>
+                    <p>Portfolio budu postupně doplňovat o nové věci, které vytvořím a naučím se.</p>
+                    <a href="#kontakt">Zůstaňme v kontaktu <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="kontakt">
+            <div class="container contact-content">
+                <div>
+                    <p class="eyebrow">Ozvěte se mi</p>
+                    <h2>Máte otázku nebo nápad?</h2>
+                    <p>Budu rád/a, když mi napíšete. E-mail níže nahraďte svou vlastní adresou.</p>
+                </div>
+                <a class="button button-light" href="mailto:student@example.com">
+                    <i class="fa-regular fa-envelope" aria-hidden="true"></i> student@example.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Moje portfolio. Vytvořeno s <i class="fa-solid fa-heart" aria-label="láskou"></i> a HTML + CSS.</p>
+            <a href="#uvod">Zpět nahoru <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
