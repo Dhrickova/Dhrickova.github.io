@@ -802,18 +802,6 @@ p {
   font-size: 9px;
 }
 
-.contact-aside > .github-hint {
-  margin: 10px 0 0 46px;
-  font-size: 9px;
-  line-height: 1.6;
-}
-
-.github-hint code {
-  padding: 1px 3px;
-  background: #e9eae1;
-  font-size: 0.95em;
-}
-
 .site-footer {
   border-top: 1px solid var(--line);
 }

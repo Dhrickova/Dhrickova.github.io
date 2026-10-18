@@ -22,7 +22,7 @@ Tento školní projekt vznikl s podporou AI. Následující záznam popisuje pou
 
 AI navrhla a vytvořila statickou jednostránkovou ukázku v češtině s názvem „Dílna budoucnosti“. Stránka obsahuje navigaci přes odkazy na jednotlivé sekce, responzivní vzhled ve vlastním souboru `style.css`, výrazné upozornění, že jde o fiktivní školní projekt, a odkazy na validátory HTML a CSS v zápatí. Je vytvořena bez JavaScriptu. Příklady projektů, jejich názvy i popisy jsou smyšlené.
 
-AI rovněž připravila tento záznam citace. Před odevzdáním nahraďte ukázkovou adresu `https://github.com/UZIVATEL/REPO/blob/main/AI-CITACE.md` na stránce `index.html` skutečným odkazem na tento soubor ve vašem GitHub repozitáři.
+AI rovněž připravila tento záznam citace. Na stránce `index.html` je odkaz na tento soubor v GitHub repozitáři.
 
 ## Úpravy autora
 
